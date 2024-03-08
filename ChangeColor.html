@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Color Example</title>
+</head>
+<body>
+    <style>
+        .content{
+            height:100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+        }
+        h1{
+            background-color:black;
+            color:aliceblue;
+            font-size: 30px;
+        }
+    </style>
+
+<div class="content">
+    <div class="color-info">
+        <h1>Background Color: <span id="colorCode">#59CC83</span></h1>
+    </div>
+    <button class="click-button" onclick="changeBackgroundColor()">Click Me</button>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
